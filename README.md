@@ -2,8 +2,8 @@
 
 A full-stack web-based Sudoku Solver developed by:
 
-- **Dahlia Mohammadi** – Computer Engineering Student  
-- **Camilla Cloutier** – Computer Science Student  
+- **Dahlia Mohammadi** – Computer Engineering Student (BASc)
+- **Camilla Cloutier** – Computer Science Student (BSc)
 
 This project enables users to input a Sudoku puzzle and receive an instant solution using a backtracking algorithm, all through a clean and interactive interface.
 
