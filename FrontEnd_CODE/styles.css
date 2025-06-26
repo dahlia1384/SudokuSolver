@@ -1,0 +1,36 @@
+body{ 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#sudoku-grid {
+    display: grid;
+    grid-template-columns: repeat(9,40px);
+    grid-template-rows: repeat(9,40px);
+    gap: 2px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+#sudoku-grid input{
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #999;
+
+}
+
+#sudoku-grid input:disabled {
+    background-color: #f0f0f0;
+    font-weight: bold;
+
+}
+ 
+#solve-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
