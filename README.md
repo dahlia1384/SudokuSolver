@@ -1,5 +1,5 @@
 # Sudoku Solver
-
+**!!Please don't mind the empty files, they will be removed soon. If you would like to view the Front end code, please visit the folder instead!!**
 A full-stack web-based Sudoku Solver developed by:
 
 - **Dahlia Mohammadi** – Computer Engineering Student (BASc) (Working on Frontend & 1/2 of Communication)
