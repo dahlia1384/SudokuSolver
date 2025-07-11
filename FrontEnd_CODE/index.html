@@ -1,15 +1,38 @@
-<!DOCTYPE html> 
-<html lang = "en">
-    <head> 
-        <meta charset="UTF-8" />
-        <meta name = "viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Sudoku Solver</title>
-        <link rel ="stylesheet" href="styles.css"/>
-    </head>
-    <body> 
-        <h1>Sudoku Solver</h1>
-        <div id="sudoku-grid"></div>
-        <button id="solve-btn">Solve</button>
-        <script type="module" src="script.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku Solver</title>
+
+    <!-- Google Fonts for better typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>🧩 Sudoku Solver</h1>
+        <p class="tagline">Enter your puzzle, and let us solve it instantly!</p>
+      </header>
+
+      <main>
+        <div id="sudoku-grid" class="grid"></div>
+        <button id="solve-btn">Solve Puzzle</button>
+      </main>
+
+      <footer>
+        <p>Made with ❤️ by Dahlia & Camilla</p>
+      </footer>
+    </div>
+
+    <!-- JS -->
+    <script type="module" src="script.js"></script>
+  </body>
 </html>
