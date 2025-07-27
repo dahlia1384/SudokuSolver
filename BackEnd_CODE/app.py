@@ -1,4 +1,6 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify #flask is a simple micro web framework designed for building web applications
+#the request object is a global object that provides access to incoming request data from the client.
+# the jsonify function in flask is used to serialize python data structures like lists into JSON format and return them as HTTP response
 from flask_cors import CORS
 
 app = Flask(__name__)

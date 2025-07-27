@@ -1,11 +1,11 @@
-from sympy import solve
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from typing import List
+from sympy import solve #sympy is an open source library designed for symbolic mathematics
+from fastapi import FastAPI, HTTPException #high performance framework for building API's with python
+from pydantic import BaseModel #for data validation and settings management. BaseModel is a class for defining data models
+from typing import List #typing allows for better code readability and management. Can catch potential type-related errors before runtime as well. 
 
+#declare the app container object. we used flask for our api
 app = FastAPI()
-
-#9x9 Sudoku grid
+#9x9 Sudoku grid    
 class SudokuPuzzle(BaseModel):
     board: List[List[int]]
 
